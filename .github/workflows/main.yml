@@ -1,0 +1,7 @@
+on: [push]
+
+jobs:
+  dont_do_drugs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: janmikes/posobota-se02e05-my-tool
