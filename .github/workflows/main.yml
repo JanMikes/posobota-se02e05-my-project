@@ -4,4 +4,6 @@ jobs:
   dont_do_drugs:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
+
       - uses: janmikes/posobota-se02e05-my-tool@master
